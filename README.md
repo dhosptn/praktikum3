@@ -9,22 +9,20 @@ menghitung luas dan keliling
 lingkaran
 
 ````
-jarijari = float(input("Masukkan jari-jari lingkaran: ")) 
-# kode meminta pengguna untuk menginputkan jari jari
+# Input jari-jari lingkaran dari pengguna
+r = float(input("Masukan Jari-jari lingkaran : "))
 
-luaslingkaran = 3.14 * jarijari**2  
-# kode rumus luas lingkaran
+# Menghitung luas lingkaran
+luas = math.pi*(r*r)
 
-kelilinglingkaran = 2 * 3.14 * jarijari 
-# kode rumus keliling lingkaran
+# Menghitung keliling lingkaran
+keliling = 2*math.pi*r
 
-print("Luas lingkaran adalah: ", luaslingkaran)
-# kode untuk menampilkan hasil luas lingkaran
-
-print("Keliling lingkaran adalah: ", kelilinglingkaran)
-# kode untuk menampilkan hasil keliling lingkaran
-````
+# Menampilkan hasil
+print ("Luas Lingkaran \t\t= ",luas)
+print ("Keliling Lingkaran\t= ",keliling)
 ## Maka hasilnya
+
 ![Alt text](output_lingkaran.jpg)
 
 ### Latihan 1
