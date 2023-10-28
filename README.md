@@ -94,6 +94,8 @@ print("Keliling lingkaran adalah: ", kelilinglingkaran)
 * a=int(a) & a=int(b) = mengubah string menjadi integer guna menyelesaikan operasi matematika
 * format = digunakan menggabungkan string dengan variabel integer
 * {2:.2f} = menghasilkan output maks 2 bilangan setelah koma (.)
+### Ouput
+![Alt text](output_latihan2.jpg)
 ### Latihan3
 
     print('##  Program Python Belah Ketupat Bintang  ##')
@@ -126,3 +128,5 @@ print("Keliling lingkaran adalah: ", kelilinglingkaran)
 *  for i in range(1,lebar_belah_ketupat) = loop kedua mencetak bagian bawah belah ketupat. Loop ini juga akan berjalan  for j in range(lebar_belah_ketupat-i) kali.
 *  for j in range(i+1) = loop mencetak spasi sebelum bintang bagian bawah
 *  for k in range(lebar_belah_ketupat-i) = loop mencetak bintang pada setiap baris bagian bawah
+### Ouput
+![Alt text](output_latihan3.jpg)
