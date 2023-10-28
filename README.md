@@ -21,8 +21,8 @@ keliling = 2*math.pi*r
 # Menampilkan hasil
 print ("Luas Lingkaran \t\t= ",luas)
 print ("Keliling Lingkaran\t= ",keliling)
+````
 ## Maka hasilnya
-
 ![Alt text](output_lingkaran.jpg)
 
 ### Latihan 1
@@ -71,7 +71,7 @@ print ("Keliling Lingkaran\t= ",keliling)
 * penggunaan end, berfungsi untuk menjadikan dua line print berbeda menjadi 1 baris yang sama
 * penggunaan separator, berfungsi untuk memisahkan argumen, fungsi sep digunakan untuk memberi kesamaan tanda pemisah
 * string format, berfungsi untuk format int menjadi string atau format suatu nilai dan memasukkan nilai ke dalam pengganti string{}
-### Ouput
+# Output
 ![Alt text](output_latihan1.jpg)
 ### Latihan2
 
@@ -92,7 +92,7 @@ print ("Keliling Lingkaran\t= ",keliling)
 * a=int(a) & a=int(b) = mengubah string menjadi integer guna menyelesaikan operasi matematika
 * format = digunakan menggabungkan string dengan variabel integer
 * {2:.2f} = menghasilkan output maks 2 bilangan setelah koma (.)
-### Ouput
+# Output
 ![Alt text](output_latihan2.jpg)
 ### Latihan3
 
@@ -126,5 +126,5 @@ print ("Keliling Lingkaran\t= ",keliling)
 *  for i in range(1,lebar_belah_ketupat) = loop kedua mencetak bagian bawah belah ketupat. Loop ini juga akan berjalan  for j in range(lebar_belah_ketupat-i) kali.
 *  for j in range(i+1) = loop mencetak spasi sebelum bintang bagian bawah
 *  for k in range(lebar_belah_ketupat-i) = loop mencetak bintang pada setiap baris bagian bawah
-### Ouput
+# Output
 ![Alt text](output_latihan3.jpg)
