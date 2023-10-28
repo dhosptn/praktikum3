@@ -72,7 +72,9 @@ print("Keliling lingkaran adalah: ", kelilinglingkaran)
     print('{0:>3} {1:>16}'.format(10, 10**10))
 * penggunaan end, berfungsi untuk menjadikan dua line print berbeda menjadi 1 baris yang sama
 * penggunaan separator, berfungsi untuk memisahkan argumen, fungsi sep digunakan untuk memberi kesamaan tanda pemisah
-* string format, berfungsi untuk format int menjadi string atau format suatu nilai dan memasukkan nilai ke dalam pengganti string{} 
+* string format, berfungsi untuk format int menjadi string atau format suatu nilai dan memasukkan nilai ke dalam pengganti string{}
+### Ouput
+![Alt text](output_latihan1.jpg)
 ### Latihan2
 
     a=input("masukkan nilai a:")
